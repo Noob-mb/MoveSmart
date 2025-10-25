@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forgot Password - Accident Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+
+  <!-- Background Map -->
+  <div id="bg-map"></div>
+
+  <!-- Forgot Password Box -->
+  <div class="login-container">
+    <h2>Forgot Password</h2>
+    <form id="forgotForm">
+      <input type="text" id="forgot-username" placeholder="Enter your Username" required>
+      <button type="submit">Recover Password</button>
+    </form>
+    <p id="forgot-message" class="error"></p>
+    <p><a href="signin.html">Back to Sign In</a></p>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="project.js"></script>
+</body>
+</html>
